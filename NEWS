@@ -1,3 +1,12 @@
+05-Dec-2017 CONFIG-TRANSPILER v0.5.1
+
+  Fixes
+
+    - Fix issue where the coreos-metadata-sshkeys.service file wasn't enabled
+      on openstack after specifying the platform
+    - Fix issue where remote url error reports were generated but failed to be
+      reported
+
 25-Sep-2017 CONFIG-TRANSPILER v0.5.0
 
   Changes
